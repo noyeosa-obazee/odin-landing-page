@@ -54,6 +54,87 @@ body {
   
 }
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-card-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    
+}
+
+.card {
+    width: 200px; /* Makes the card square (width and height are the same) */
+    height: 200px;
+   font-size: 80px;
+    border: 3px solid #3882f6; /* Blue border color and thickness */
+    border-radius: 20px; /* Adjust this value to control the amount of curve */
+    padding: 20px; /* Space between content and border */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        background-color: #e5e7eb;
+        padding: 130px;
+}
+
+.section-three .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    gap: 10px;
+}
+
+.quote {
+font-size: 36px;
+color: #1f2937;
+font-weight: 300;
+font-style: italic;
+}
+
+.quoter {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.main-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+}
+
 ul {
     margin: 0;
     padding: 0;
