@@ -102,7 +102,7 @@ body {
     justify-content: center;
     align-items: center;
         background-color: #e5e7eb;
-        padding: 130px;
+        padding: 160px;
 }
 
 .section-three .quote-container {
@@ -133,6 +133,46 @@ font-style: italic;
 
 .card-text {
     text-align: center;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    gap: 200px;
+    padding: 40px 80px;
+    border-radius: 5px;
+}
+
+.second-sign-up-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 35px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.main {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
 }
 
 ul {
