@@ -1,1 +1,3 @@
-# odin-landing-page
+## image-credit
+
+Hero image - Photo by NASA(https://unsplash.com/@nasa)
